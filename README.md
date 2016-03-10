@@ -113,7 +113,7 @@ if (process.env.isChild) {
 ```
 ## APIs
 ```js
-pc.exec(command[, arg1[, arg2, ...]]);
+ipc.exec(command[, arg1[, arg2, ...]]);
 ```
 ```js
 ipc.register(command, handler);
